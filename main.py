@@ -12,7 +12,7 @@ def add_text(image,text):
     base_img = image.copy()
     
     # 名前を描画するためのフォントとサイズを設定
-    font = ImageFont.truetype("arial.ttf", 50)  # 'arial.ttf'はシステムにインストールされたフォントに置き換えてください
+    font = ImageFont.truetype("NotoSansJP-Regular.ttf", 50)  
     draw = ImageDraw.Draw(base_img)
     
     # 名前を画像上に配置する位置を設定（x, y座標）
